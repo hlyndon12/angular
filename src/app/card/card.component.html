@@ -1,0 +1,14 @@
+
+    <mat-card class="example-card" *ngFor="let animal of animals">
+    <mat-card-title>{{animal.name}}</mat-card-title>
+    <mat-card-subtitle>{{animal.species}}</mat-card-subtitle>
+    <!-- <img mat-card-sm-image [src]="animal.thumbnail" > -->
+    <mat-card-content>
+      <p>This card indeterminates progress bar.</p>
+      <p>{{animal.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
